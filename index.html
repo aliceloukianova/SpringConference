@@ -12,37 +12,70 @@
 
 
     <style>
-        .fakeimg {
-            height: 200px;
-            background: #aaa;
-        }
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+      height: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+
+    .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+    }
+
+    .hero-text button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 10px 25px;
+      color: black;
+      background-color: #ddd;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .hero-text button:hover {
+      background-color: #555;
+      color: white;
+    }
+    </style>
     </style>
 
 </head>
 <body>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-        <h1><b><i>PEACE TREES c:</i></b></h1>
+<div class="hero-image" style="margin-bottom: 75px">
+  <img src="https://t4.ftcdn.net/jpg/02/92/88/07/360_F_292880761_2a3WpQS35XOla3BxDsOLlv7EXWYOtVgl.jpg" class="col-md-12 col-lg-12">
+  <div class="hero-text">
+      <h1 style="font-size:50px"><b><i>PEACE TREES</i></b></h1>
+      <p> 
         <h2> Share a cute memory or share any friendly message, just click on a face and a new tab will open up to send a quick email!
-        <b>Please be logged into your Northeastern Outlook account for this to work.</b>
+        <b>Please be logged into your Northeastern Outlook account.</b>
          </h2>
-      
+      </p>
+  </div>
 </div>
 
-<div class="container">
+
+<div class="container" style="margin-top: 175px">
   <h3>About Peace Trees</h3>
   <p style="border-top: 5px"> Peace trees is a bi-annual tradition at conference where everyone writes notes of recognition to any new friends, people who made an impact on them, or anyone you shared a laugh with!
   </p>
 </div>
 
-
-    <div class="container-fluid px-0">
-        <div class="row" style="text-align:center;">
-            <div class="col-md-12 col-lg-12"> <!-- full-width banner-->
-                <img src="https://timberridgesite.com/greentreesBanner.jpg" class="img-responsive"/>
-             </div>
-        </div>
- 	</div>
 
  <div class="container" style="text-align:center;">
 	<h2>Attendees</h2>
@@ -200,7 +233,11 @@
       <img src="https://i.postimg.cc/0yvNhHkX/LAST-ONE.png" class="img-thumbnail" alt="Steph Palis">
       </a> 
   </div>
-  
+
+  <div class="col-sm-12 col-lg-4">
+      <img src="https://thumbs.gfycat.com/GoodnaturedDenseEarwig-size_restricted.gif" class="img-rounded" alt="thank u">
+  </div>
+    
 </div>
 
 
